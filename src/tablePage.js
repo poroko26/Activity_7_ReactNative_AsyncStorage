@@ -61,7 +61,7 @@ const TablePage = () => {
                   onPress={() => handleRowClick(student)}
                 >
                   <Text style={{ flex: 0.5, minWidth: 30 }}>{student.id}</Text>
-                  <Text style={{ flex: 1, minWidth: 150 }}>{`${student.FirstName} ${student.LastName}`}</Text>
+                  <Text style={{ flex: 1, minWidth: 150 }}>{student.FirstName} {student.LastName}</Text>
                   <Text style={{ flex: 0.5, minWidth: 70 }}>{student.Course}</Text>
                   <Text style={{ flex: 1, minWidth: 70 }}>{student.Username}</Text>
                 </TouchableOpacity>
